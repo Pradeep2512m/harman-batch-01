@@ -1,3 +1,5 @@
 x = 15
-result = lambda i : i*5
-print(result(x))
+y = 18
+add = lambda a, b: a+b
+y = add(x,y)
+print(y)
